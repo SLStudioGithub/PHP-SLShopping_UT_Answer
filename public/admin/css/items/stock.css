@@ -1,0 +1,22 @@
+.search-form-box {
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+}
+
+.form-control {
+    border-radius: 3%;
+}
+
+.search-buttons {
+    margin: 10px;
+}
+
+.form-group {
+    vertical-align: top;
+}
+
+.error-box {
+    color: red;
+    display: none;
+}

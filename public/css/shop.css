@@ -1,0 +1,306 @@
+/* Shop全体に適用する基本項目 */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    min-height: 100vh;
+    margin: 10px 0 10px 0;
+    right: 0px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h3, h4 {
+    margin: 0;
+}
+/* login画面に関する項目 */
+.form-group {
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    .col-form-label {
+        text-align: right;
+    }
+}
+/* headerに関する項目 */
+img.shop-logo {
+    height: 100px;
+}
+.header div {
+    background-color: #33383c;
+    padding: 10px 10px 0px 10px;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.header div ul {
+    display: flex;
+}
+.header-nav {
+    margin: 0 0 0 auto;
+}
+.header div ul li {
+    margin-left: 20px;
+}
+.header-nav ul li a {
+    color: #FFF;
+}
+.header .bi {
+    font-size: 25px;
+}
+.header-nav ul li a:hover {
+    color: #FFA400;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+/* shop全体のうちナビゲーションに適用する項目 */
+.navigation {
+    background-color: #888;
+    color: #fff;
+    width: 250px;
+}
+.navigation-search {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+.category-list {
+    padding: 0;
+    color: #fff;
+}
+.category-selecting {
+    background-color: #a9a9a9;
+}
+.category-list a {
+    color: #fff;
+}
+.category-list li:hover {
+    background-color: #696969;
+}
+.p-category {
+    font-size: large;
+    font-weight: 700;
+}
+.c-category {
+    font-size:medium;
+    font-weight:500;
+    margin-left: 10px;
+}
+.gc-category {
+    font-size:small;
+    font-weight: 300;
+    margin-left: 20px;
+}
+/* Shop一覧に適用する項目 */
+.content-area {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 30%;
+    height: auto;
+    background-color: #eee;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.content-area::after {
+    display: block;
+    content: "";
+    min-width: 200px;
+    width : 30%;
+    height: 0;
+    margin-bottom: 10px;
+}
+.content-anchor {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item-description-block {
+    color: #33383c;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.content-area :hover {
+    color: #FFA400;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.item-description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 200px;
+}
+.item-short-description {
+    text-align: left;
+}
+.item-image {
+    max-width: 200px;
+    height: auto;
+    max-height: 200px;
+}
+.image-location {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sort-result {
+    float: left;
+    font-size: small;
+}
+.sort-select {
+    float: right;
+}
+
+.pagination {
+    text-align: center;
+    justify-content: center;
+}
+.pagination li {
+    display: inline-block;
+}
+
+/* Shop商品詳細に適用する項目 */
+.content-detail {
+    display: inline-block;
+}
+.content-partition-li {
+    float: left;
+    width: calc(50% - 20px);
+    padding-right: 20px;
+}
+.content-partition-li-div {
+    float: left;
+    width: 100%;
+    margin-left: calc(100% / 8);
+}
+.image-item-detail {
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    margin : 0 auto;
+}
+.item-detail-table-title {
+    font-size: medium;
+    color: tomato;
+}
+.content-partition-table {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+.table-one tr th, .table-two tr th, .table-one tr td {
+    width: 150px;
+}
+.table-two tr td {
+    width: 450px;
+}
+.content-area-detail {
+    font-size: 15pt;
+}
+.content-area-detail .item-name {
+    font-size: 24pt;
+}
+.content-area-detail .short-description {
+    font-size: 12px;
+}
+.content-area-detail .discount-price {
+    font-size: 10pt;
+}
+.content-area-detail .content-partition-table{
+    font-size: 13pt;
+}
+.description {
+    padding-top: 10px;
+}
+/* flexsliderに関する項目 */
+.flex-direction-nav a:before {
+    font-size: 35px;
+}
+/* Shop特定商取引に関する法律に基づく表記に適用する項目 */
+.commercial-transactions {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.commercial-transactions h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* footerに関する項目 */
+footer {
+    background-color: #33383c;
+    padding: 30px 0px;
+}
+.logo {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+.site {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+.copyright {
+    color: #FFF;
+    text-align: center;
+}
+.address span, .menu span {
+   color: #FFF;
+   font-weight: bold;
+   border-bottom: 1px solid #c7c7c7;
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+.menu li a, .address li a, .address li p {
+    color: #FFF;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.address li p span {
+    padding-left: 3px;
+}
+.address li, .menu li {
+    margin: 20px 0px;
+    list-style: none;
+}
+.menu li a:hover, .address li a:hover {
+    color: #FFA400;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}

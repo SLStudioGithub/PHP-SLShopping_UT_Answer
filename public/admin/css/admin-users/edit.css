@@ -1,0 +1,15 @@
+.error-box {
+    color: red;
+}
+
+.box-body {
+    padding: 3%;
+}
+
+.form-control {
+    border-radius: 3%;
+}
+
+.form-check-label {
+    margin-right: 5%;
+}

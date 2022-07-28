@@ -1,0 +1,18 @@
+.search-form-box {
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+}
+
+.form-control {
+    border-radius: 3%;
+}
+
+.search-buttons {
+    margin: 10px;
+}
+
+.form-check-label {
+    margin-right: 5%;
+}
+

@@ -1,0 +1,40 @@
+.error-box {
+    color: red;
+}
+
+.box-body {
+    padding: 3%;
+}
+
+.form-control {
+    border-radius: 3%;
+}
+
+.parent-category {
+    margin-left: 10px;
+}
+.child-category {
+    margin-left: 30px;
+}
+.grandchild-category {
+    margin-left: 50px;
+}
+
+.split-four-form-box {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.split-three-form-box {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30%;
+}
+
+#preview {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
